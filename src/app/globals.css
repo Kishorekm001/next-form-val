@@ -31,3 +31,17 @@ body {
     text-wrap: balance;
   }
 }
+
+input[type="date"] {
+  appearance: none;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  outline: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-color: white;
+  padding: 0.25rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
